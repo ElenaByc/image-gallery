@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image-Galery</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/img/gallery.ico">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <div class="page-wrapper">
+        <header class ="header">
+            <div class="header-logo">
+                <div class="header-logo-img"></div>
+                <div class="header-title">
+                    <h2>Unsplash&nbsp;API</h2>
+                </div>
+            </div>
+            <div class="header-search-box">
+                <input type="text" class="search-term" placeholder="Search..." autocomplete="off" autofocus>
+                <button type="submit" class="clear-button"></button>
+                <button type="submit" class="search-button"></button>
+            </div>
+        </header>
+
+        <main class="main">
+            <section class="image-galery">
+                <h2 class="galery-header">Search Result</h2>
+                <div class="image-container"></div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-year">&copy; 2022</div>
+            <div class="footer-github">
+                <a href="https://github.com/elenaByc">
+                    <img src="./assets/img/github-logo.png" alt="github-logo" class="footer-github-logo">
+                </a>
+            </div>
+            <div class="footer-rss">
+                <a href="https://rs.school/js/" class="rss">
+                    <img src="./assets/img/rs_school_js.svg" alt="rss-logo" class="footer-rss-logo">
+                </a>
+            </div>
+        </footer>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
