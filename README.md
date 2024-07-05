@@ -1,2 +1,2 @@
-# image-galery
-https://elenabyc.github.io/image-galery/
+# image-gallery
+https://elenabyc.github.io/image-gallery/
